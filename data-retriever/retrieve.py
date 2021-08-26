@@ -18,11 +18,14 @@ def read_route(file_path):
     return bus_stops
 
 def retrieve_data(handler, bus_stop_code, service_no):
-    target = urlparse(uri + path + 'BusStopCode=' + bus_stop_code + '&ServiceNo=' + service_no)
-    response, content = handler.request(target.geturl(), 'GET', '', headers)
-    json_obj = json.loads(content)
+    try:
+        target = urlparse(uri + path + 'BusStopCode=' + bus_stop_code + '&ServiceNo=' + service_no)
+        response, content = handler.request(target.geturl(), 'GET', '', headers)
+        json_obj = json.loads(content)
 
-    return json_obj
+        return json_obj
+    except Exception as e:
+        print(e)
 
 def write_to_file(output_file, json_obj, next_stop):
     data = json_obj['Services'][0]
@@ -37,7 +40,7 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser(description='Retrieve data from LTA Datamall API')
     parser.add_argument('--key', required=True, help='API Key for accessing API')
     parser.add_argument('--route', required=True, help='Bus Service route file')
-    parser.add_argument('--output', required=True, help='Output file name')
+    parser.add_argument('--output', required=True, help='Output file name e.g. output.csv')
     args = parser.parse_args()
 
     #Initialise Authentication parameters
