@@ -28,13 +28,16 @@ def retrieve_data(handler, bus_stop_code, service_no):
         print(e)
 
 def write_to_file(output_file, json_obj, next_stop):
-    data = json_obj['Services'][0]
-    next_bus = json_normalize(data['NextBus'])
-    next_bus['BusStopCode'] = bus_info[0]
-    next_bus['NextBusStopCode'] = next_stop
-    next_bus['ServiceNo'] = bus_info[1]
-    next_bus['RetrievalTime'] = datetime.datetime.now(pytz.utc).astimezone(local_tz)
-    next_bus.to_csv(output_file, header = False, index = False)
+    try:
+        data = json_obj['Services'][0]
+        next_bus = json_normalize(data['NextBus'])
+        next_bus['BusStopCode'] = bus_info[0]
+        next_bus['NextBusStopCode'] = next_stop
+        next_bus['ServiceNo'] = bus_info[1]
+        next_bus['RetrievalTime'] = datetime.datetime.now(pytz.utc).astimezone(local_tz)
+        next_bus.to_csv(output_file, header = False, index = False)
+    except Exception as e:
+        print(e)
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description='Retrieve data from LTA Datamall API')
