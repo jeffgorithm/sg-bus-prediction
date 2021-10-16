@@ -9,6 +9,10 @@ import httplib2 as http
 SLEEP_DURATION = 60
 
 def read_route(file_path):
+    '''
+    A function that reads a bus route file and returns a list of \
+    consisting of BusStopCode and ServiceNo
+    '''
     file = pd.read_csv(file_path, index_col=None)
     bus_stops = []
 
@@ -18,16 +22,25 @@ def read_route(file_path):
     return bus_stops
 
 def retrieve_data(handler, bus_stop_code, service_no):
+    '''
+    A function that performs the HTTP request to the server, \
+    retrieving the bus arrival timing of the requested BusStopCode \
+    and BusService 
+    '''
     try:
         target = urlparse(uri + path + 'BusStopCode=' + bus_stop_code + '&ServiceNo=' + service_no)
         response, content = handler.request(target.geturl(), 'GET', '', headers)
         json_obj = json.loads(content)
+        #print(json_obj)
 
         return json_obj
     except Exception as e:
         print(e)
 
 def write_to_file(output_file, json_obj, next_stop):
+    '''
+    A function that flattens a JSON object and writes it to a .CSV file
+    '''
     try:
         data = json_obj['Services'][0]
         next_bus = json_normalize(data['NextBus'])
@@ -35,6 +48,7 @@ def write_to_file(output_file, json_obj, next_stop):
         next_bus['NextBusStopCode'] = next_stop
         next_bus['ServiceNo'] = bus_info[1]
         next_bus['RetrievalTime'] = datetime.datetime.now(pytz.utc).astimezone(local_tz)
+        next_bus['eta2'] = json_obj['Services'][0]['NextBus2']['EstimatedArrival']
         next_bus.to_csv(output_file, header = False, index = False)
     except Exception as e:
         print(e)
