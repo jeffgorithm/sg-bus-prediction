@@ -79,20 +79,18 @@ if __name__=="__main__":
     #Initialise http handler
     handler = http.Http()
 
-    while True:
-        output_file = open(args.output, 'a')
+    output_file = open(args.output, 'a')
 
-        print("Retrieved at {}".format(str(datetime.datetime.now(pytz.utc).astimezone(local_tz))))
+    print("Retrieved at {}".format(str(datetime.datetime.now(pytz.utc).astimezone(local_tz))))
 
-        for i, bus_info in enumerate(bus_stops):
-            if i != len(bus_stops) - 1:
-                next_stop = bus_stops[i + 1][0]
-            else:
-                next_stop = ''
+    for i, bus_info in enumerate(bus_stops):
+        if i != len(bus_stops) - 1:
+            next_stop = bus_stops[i + 1][0]
+        else:
+            next_stop = ''
 
-            json_obj = retrieve_data(handler, bus_info[0], bus_info[1])
+        json_obj = retrieve_data(handler, bus_info[0], bus_info[1])
 
-            write_to_file(output_file, json_obj, next_stop)
+        write_to_file(output_file, json_obj, next_stop)
 
-        output_file.close()
-        time.sleep(SLEEP_DURATION)
+    output_file.close()
