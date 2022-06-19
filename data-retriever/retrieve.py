@@ -1,6 +1,6 @@
 import argparse
 import json
-import time, datetime, pytz
+import datetime, pytz
 import pandas as pd
 from pandas import json_normalize
 from urllib.parse import urlparse
@@ -9,10 +9,7 @@ import httplib2 as http
 SLEEP_DURATION = 60
 
 def read_route(file_path):
-    '''
-    A function that reads a bus route file and returns a list of \
-    consisting of BusStopCode and ServiceNo
-    '''
+    '''Reads route file and returns list of BusStopCode and ServiceNo'''
     file = pd.read_csv(file_path, index_col=None)
     bus_stops = []
 
@@ -22,25 +19,28 @@ def read_route(file_path):
     return bus_stops
 
 def retrieve_data(handler, bus_stop_code, service_no):
-    '''
-    A function that performs the HTTP request to the server, \
-    retrieving the bus arrival timing of the requested BusStopCode \
-    and BusService 
-    '''
+    '''Performs HTTP request to server with BusStopCode and BusService'''
     try:
         target = urlparse(uri + path + 'BusStopCode=' + bus_stop_code + '&ServiceNo=' + service_no)
         response, content = handler.request(target.geturl(), 'GET', '', headers)
         json_obj = json.loads(content)
-        #print(json_obj)
+        #print(json.dumps(json_obj, indent=4))
 
         return json_obj
     except Exception as e:
         print(e)
 
+def write_json(output_path, json_obj, next_stop):
+    '''Adds new key to JSON object and writes to file'''
+    json_obj['NextStop'] = str(next_stop)
+
+    with open(output_path, 'a') as f:
+        f.write(json.dumps(json_obj, indent=4) + '\n')
+
+    f.close()
+
 def write_to_file(output_file, json_obj, next_stop):
-    '''
-    A function that flattens a JSON object and writes it to a .CSV file
-    '''
+    '''A function that flattens a JSON object and writes it to a .CSV file'''
     try:
         data = json_obj['Services'][0]
         next_bus = json_normalize(data['NextBus'])
@@ -79,8 +79,6 @@ if __name__=="__main__":
     #Initialise http handler
     handler = http.Http()
 
-    output_file = open(args.output, 'a')
-
     print("Retrieved at {}".format(str(datetime.datetime.now(pytz.utc).astimezone(local_tz))))
 
     for i, bus_info in enumerate(bus_stops):
@@ -91,6 +89,5 @@ if __name__=="__main__":
 
         json_obj = retrieve_data(handler, bus_info[0], bus_info[1])
 
-        write_to_file(output_file, json_obj, next_stop)
-
-    output_file.close()
+        #write_to_file(output_file, json_obj, next_stop)
+        write_json(args.output, json_obj, next_stop)
