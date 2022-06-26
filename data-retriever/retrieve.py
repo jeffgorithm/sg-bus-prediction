@@ -33,6 +33,7 @@ def retrieve_data(handler, bus_stop_code, service_no):
 def write_json(output_path, json_obj, next_stop):
     '''Adds new key to JSON object and writes to file'''
     json_obj['NextStop'] = str(next_stop)
+    json_obj['CurrentTime'] = str(datetime.datetime.now())
 
     with open(output_path, 'a') as f:
         f.write(json.dumps(json_obj, indent=4) + '\n')

@@ -8,7 +8,7 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:13:00+08:00",
+                "EstimatedArrival": "2022-06-26T17:01:00+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -19,18 +19,18 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:18:00+08:00",
+                "EstimatedArrival": "2022-06-26T17:08:00+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
-                "Type": "SD"
+                "Type": "DD"
             },
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:23:00+08:00",
+                "EstimatedArrival": "2022-06-26T17:15:00+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -40,7 +40,8 @@
             }
         }
     ],
-    "NextStop": "46271"
+    "NextStop": "46271",
+    "CurrentTime": "2022-06-26 16:59:50.463456"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -52,7 +53,7 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:14:40+08:00",
+                "EstimatedArrival": "2022-06-26T17:02:40+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -63,18 +64,18 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:19:01+08:00",
+                "EstimatedArrival": "2022-06-26T17:09:03+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
-                "Type": "SD"
+                "Type": "DD"
             },
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:24:01+08:00",
+                "EstimatedArrival": "2022-06-26T17:16:03+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -84,7 +85,8 @@
             }
         }
     ],
-    "NextStop": "46301"
+    "NextStop": "46301",
+    "CurrentTime": "2022-06-26 16:59:50.491346"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -96,9 +98,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:11:16+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T16:58:58+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -107,7 +109,7 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:15:05+08:00",
+                "EstimatedArrival": "2022-06-26T17:03:27+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -118,17 +120,18 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:20:05+08:00",
+                "EstimatedArrival": "2022-06-26T17:10:27+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
-                "Type": "SD"
+                "Type": "DD"
             }
         }
     ],
-    "NextStop": "46311"
+    "NextStop": "46311",
+    "CurrentTime": "2022-06-26 16:59:50.518912"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -140,9 +143,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:12:13+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T16:59:58+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -151,7 +154,7 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:15:51+08:00",
+                "EstimatedArrival": "2022-06-26T17:04:13+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -162,17 +165,18 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:20:51+08:00",
+                "EstimatedArrival": "2022-06-26T17:11:13+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
-                "Type": "SD"
+                "Type": "DD"
             }
         }
     ],
-    "NextStop": "46249"
+    "NextStop": "46249",
+    "CurrentTime": "2022-06-26 16:59:50.547041"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -184,9 +188,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:13:02+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:00:50+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -195,7 +199,7 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:16:32+08:00",
+                "EstimatedArrival": "2022-06-26T17:04:57+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -206,17 +210,18 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:21:32+08:00",
+                "EstimatedArrival": "2022-06-26T17:11:57+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
-                "Type": "SD"
+                "Type": "DD"
             }
         }
     ],
-    "NextStop": "46179"
+    "NextStop": "46179",
+    "CurrentTime": "2022-06-26 16:59:50.575746"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -228,9 +233,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:13:57+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:01:45+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -239,7 +244,7 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:17:24+08:00",
+                "EstimatedArrival": "2022-06-26T17:05:49+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -250,17 +255,18 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:22:24+08:00",
+                "EstimatedArrival": "2022-06-26T17:12:49+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
-                "Type": "SD"
+                "Type": "DD"
             }
         }
     ],
-    "NextStop": "46169"
+    "NextStop": "46169",
+    "CurrentTime": "2022-06-26 16:59:50.604548"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -272,9 +278,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:15:38+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T16:59:35+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -283,9 +289,9 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:19:05+08:00",
-                "Latitude": "0",
-                "Longitude": "0",
+                "EstimatedArrival": "2022-06-26T17:03:26+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -294,17 +300,18 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:24:05+08:00",
+                "EstimatedArrival": "2022-06-26T17:07:24+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
-                "Type": "SD"
+                "Type": "DD"
             }
         }
     ],
-    "NextStop": "46159"
+    "NextStop": "46159",
+    "CurrentTime": "2022-06-26 16:59:50.634725"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -316,9 +323,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:16:05+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:00:03+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -327,9 +334,9 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:19:31+08:00",
-                "Latitude": "0",
-                "Longitude": "0",
+                "EstimatedArrival": "2022-06-26T17:03:54+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -338,17 +345,18 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:24:31+08:00",
+                "EstimatedArrival": "2022-06-26T17:07:52+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
-                "Type": "SD"
+                "Type": "DD"
             }
         }
     ],
-    "NextStop": "46149"
+    "NextStop": "46149",
+    "CurrentTime": "2022-06-26 16:59:50.664622"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -360,9 +368,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:11:23+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:01:34+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -371,9 +379,9 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:17:35+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:05:25+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -382,7 +390,7 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:20:53+08:00",
+                "EstimatedArrival": "2022-06-26T17:09:13+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -392,7 +400,8 @@
             }
         }
     ],
-    "NextStop": "46119"
+    "NextStop": "46119",
+    "CurrentTime": "2022-06-26 16:59:50.717456"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -404,9 +413,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:13:22+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:03:34+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -415,9 +424,9 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:19:34+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:07:25+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -426,7 +435,7 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:22:37+08:00",
+                "EstimatedArrival": "2022-06-26T17:11:00+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -436,7 +445,8 @@
             }
         }
     ],
-    "NextStop": "46069"
+    "NextStop": "46069",
+    "CurrentTime": "2022-06-26 16:59:50.746882"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -448,9 +458,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:16:11+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:06:28+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -459,9 +469,9 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:22:23+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:10:19+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -470,7 +480,7 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:25:24+08:00",
+                "EstimatedArrival": "2022-06-26T17:13:39+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -480,7 +490,8 @@
             }
         }
     ],
-    "NextStop": "46088"
+    "NextStop": "46088",
+    "CurrentTime": "2022-06-26 16:59:50.770200"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -492,9 +503,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:17:30+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:07:47+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -503,9 +514,9 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:23:42+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:11:38+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -514,7 +525,7 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:26:43+08:00",
+                "EstimatedArrival": "2022-06-26T17:15:01+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -524,7 +535,8 @@
             }
         }
     ],
-    "NextStop": "46111"
+    "NextStop": "46111",
+    "CurrentTime": "2022-06-26 16:59:50.793970"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -536,9 +548,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:18:34+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:08:54+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -547,9 +559,9 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:24:46+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:12:45+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -558,7 +570,7 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:27:45+08:00",
+                "EstimatedArrival": "2022-06-26T17:16:05+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -568,7 +580,8 @@
             }
         }
     ],
-    "NextStop": "46141"
+    "NextStop": "46141",
+    "CurrentTime": "2022-06-26 16:59:50.817893"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -580,20 +593,20 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:10:59+08:00",
-                "Latitude": "1.4417913333333334",
-                "Longitude": "103.77482016666667",
+                "EstimatedArrival": "2022-06-26T16:58:34+08:00",
+                "Latitude": "1.4435986666666667",
+                "Longitude": "103.77331483333333",
                 "VisitNumber": "1",
-                "Load": "SEA",
+                "Load": "SDA",
                 "Feature": "WAB",
                 "Type": "SD"
             },
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:20:18+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:10:42+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -602,9 +615,9 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:26:30+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:14:33+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -612,7 +625,8 @@
             }
         }
     ],
-    "NextStop": "46151"
+    "NextStop": "46151",
+    "CurrentTime": "2022-06-26 16:59:50.837582"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -624,20 +638,20 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:12:22+08:00",
-                "Latitude": "1.4417913333333334",
-                "Longitude": "103.77482016666667",
+                "EstimatedArrival": "2022-06-26T16:59:58+08:00",
+                "Latitude": "1.4435986666666667",
+                "Longitude": "103.77331483333333",
                 "VisitNumber": "1",
-                "Load": "SEA",
+                "Load": "SDA",
                 "Feature": "WAB",
                 "Type": "SD"
             },
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:21:41+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:12:06+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -646,9 +660,9 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:27:53+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:15:57+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -656,7 +670,8 @@
             }
         }
     ],
-    "NextStop": "46161"
+    "NextStop": "46161",
+    "CurrentTime": "2022-06-26 16:59:50.864316"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -668,20 +683,20 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:13:31+08:00",
-                "Latitude": "1.4417913333333334",
-                "Longitude": "103.77482016666667",
+                "EstimatedArrival": "2022-06-26T17:01:07+08:00",
+                "Latitude": "1.4435986666666667",
+                "Longitude": "103.77331483333333",
                 "VisitNumber": "1",
-                "Load": "SEA",
+                "Load": "SDA",
                 "Feature": "WAB",
                 "Type": "SD"
             },
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:22:50+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:13:15+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -690,9 +705,9 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:29:02+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:17:06+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -700,7 +715,8 @@
             }
         }
     ],
-    "NextStop": "46171"
+    "NextStop": "46171",
+    "CurrentTime": "2022-06-26 16:59:50.891816"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -712,20 +728,20 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:14:48+08:00",
-                "Latitude": "1.4417913333333334",
-                "Longitude": "103.77482016666667",
+                "EstimatedArrival": "2022-06-26T17:02:26+08:00",
+                "Latitude": "1.4435986666666667",
+                "Longitude": "103.77331483333333",
                 "VisitNumber": "1",
-                "Load": "SEA",
+                "Load": "SDA",
                 "Feature": "WAB",
                 "Type": "SD"
             },
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:24:07+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:14:34+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -734,9 +750,9 @@
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:30:19+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:18:25+08:00",
+                "Latitude": "1.4410826666666667",
+                "Longitude": "103.78502933333333",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -744,7 +760,8 @@
             }
         }
     ],
-    "NextStop": "46241"
+    "NextStop": "46241",
+    "CurrentTime": "2022-06-26 16:59:50.915167"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -756,31 +773,31 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:15:45+08:00",
-                "Latitude": "1.4417913333333334",
-                "Longitude": "103.77482016666667",
-                "VisitNumber": "1",
-                "Load": "SEA",
-                "Feature": "WAB",
-                "Type": "SD"
-            },
-            "NextBus2": {
-                "OriginCode": "46009",
-                "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:25:04+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T16:58:24+08:00",
+                "Latitude": "1.4421083333333333",
+                "Longitude": "103.7789215",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
                 "Type": "DD"
             },
+            "NextBus2": {
+                "OriginCode": "46009",
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2022-06-26T17:03:25+08:00",
+                "Latitude": "1.4435986666666667",
+                "Longitude": "103.77331483333333",
+                "VisitNumber": "1",
+                "Load": "SDA",
+                "Feature": "WAB",
+                "Type": "SD"
+            },
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:31:16+08:00",
-                "Latitude": "1.4405688333333333",
-                "Longitude": "103.785777",
+                "EstimatedArrival": "2022-06-26T17:15:33+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -788,7 +805,8 @@
             }
         }
     ],
-    "NextStop": "46319"
+    "NextStop": "46319",
+    "CurrentTime": "2022-06-26 16:59:50.939388"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -800,9 +818,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:10:27+08:00",
-                "Latitude": "1.4423938333333333",
-                "Longitude": "103.78039133333333",
+                "EstimatedArrival": "2022-06-26T16:59:23+08:00",
+                "Latitude": "1.4421083333333333",
+                "Longitude": "103.7789215",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -811,20 +829,20 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:16:43+08:00",
-                "Latitude": "1.4417913333333334",
-                "Longitude": "103.77482016666667",
+                "EstimatedArrival": "2022-06-26T17:04:24+08:00",
+                "Latitude": "1.4435986666666667",
+                "Longitude": "103.77331483333333",
                 "VisitNumber": "1",
-                "Load": "SEA",
+                "Load": "SDA",
                 "Feature": "WAB",
                 "Type": "SD"
             },
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:26:02+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:16:32+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -832,7 +850,8 @@
             }
         }
     ],
-    "NextStop": "46309"
+    "NextStop": "46309",
+    "CurrentTime": "2022-06-26 16:59:50.959749"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -844,9 +863,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:11:32+08:00",
-                "Latitude": "1.4423938333333333",
-                "Longitude": "103.78039133333333",
+                "EstimatedArrival": "2022-06-26T17:00:29+08:00",
+                "Latitude": "1.4421083333333333",
+                "Longitude": "103.7789215",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -855,20 +874,20 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:17:48+08:00",
-                "Latitude": "1.4417913333333334",
-                "Longitude": "103.77482016666667",
+                "EstimatedArrival": "2022-06-26T17:05:30+08:00",
+                "Latitude": "1.4435986666666667",
+                "Longitude": "103.77331483333333",
                 "VisitNumber": "1",
-                "Load": "SEA",
+                "Load": "SDA",
                 "Feature": "WAB",
                 "Type": "SD"
             },
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:27:07+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:17:38+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -876,7 +895,8 @@
             }
         }
     ],
-    "NextStop": "46279"
+    "NextStop": "46279",
+    "CurrentTime": "2022-06-26 16:59:50.990997"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -888,9 +908,9 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:13:15+08:00",
-                "Latitude": "1.4423938333333333",
-                "Longitude": "103.78039133333333",
+                "EstimatedArrival": "2022-06-26T17:02:10+08:00",
+                "Latitude": "1.4421083333333333",
+                "Longitude": "103.7789215",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -899,20 +919,20 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:19:31+08:00",
-                "Latitude": "1.4417913333333334",
-                "Longitude": "103.77482016666667",
+                "EstimatedArrival": "2022-06-26T17:07:11+08:00",
+                "Latitude": "1.4435986666666667",
+                "Longitude": "103.77331483333333",
                 "VisitNumber": "1",
-                "Load": "SEA",
+                "Load": "SDA",
                 "Feature": "WAB",
                 "Type": "SD"
             },
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:28:50+08:00",
-                "Latitude": "1.4456981666666666",
-                "Longitude": "103.77323333333334",
+                "EstimatedArrival": "2022-06-26T17:19:19+08:00",
+                "Latitude": "1.4440246666666667",
+                "Longitude": "103.77793883333334",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
@@ -920,7 +940,8 @@
             }
         }
     ],
-    "NextStop": "46009"
+    "NextStop": "46009",
+    "CurrentTime": "2022-06-26 16:59:51.020851"
 }
 {
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element",
@@ -932,7 +953,7 @@
             "NextBus": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:13:00+08:00",
+                "EstimatedArrival": "2022-06-26T17:01:00+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -943,18 +964,18 @@
             "NextBus2": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:18:00+08:00",
+                "EstimatedArrival": "2022-06-26T17:08:00+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
                 "Load": "SEA",
                 "Feature": "WAB",
-                "Type": "SD"
+                "Type": "DD"
             },
             "NextBus3": {
                 "OriginCode": "46009",
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2022-06-19T16:23:00+08:00",
+                "EstimatedArrival": "2022-06-26T17:15:00+08:00",
                 "Latitude": "0",
                 "Longitude": "0",
                 "VisitNumber": "1",
@@ -964,5 +985,6 @@
             }
         }
     ],
-    "NextStop": ""
+    "NextStop": "",
+    "CurrentTime": "2022-06-26 16:59:51.037560"
 }
