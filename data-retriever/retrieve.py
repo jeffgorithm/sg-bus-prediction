@@ -36,7 +36,7 @@ def write_json(output_path, json_obj, next_stop):
     json_obj['CurrentTime'] = str(datetime.datetime.now())
 
     with open(output_path, 'a') as f:
-        f.write(json.dumps(json_obj, indent=4) + '\n')
+        f.write(json.dumps(json_obj) + '\n')
 
     f.close()
 
